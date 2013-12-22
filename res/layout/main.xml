@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="71dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/prevMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Atgal" />
+
+        <TextView
+            android:id="@+id/currentMonth"
+            android:layout_width="312dp"
+            android:layout_height="42dp"
+            android:layout_weight="0.80"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/nextMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Pirmyn" />
+        
+
+	
+        	
+    </LinearLayout>
+    
+        <TextView
+            android:id="@+id/currentDate"
+            android:layout_width="312dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+    <GridView
+        android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="397dp"
+        android:horizontalSpacing="-1px"
+        android:numColumns="7"
+        android:verticalSpacing="-1px" >
+    </GridView>
+
+</LinearLayout>
